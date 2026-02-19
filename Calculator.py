@@ -14,8 +14,8 @@ class Calculator:
     def divide(self, a, b):
         # if b == 0:
         #     return "Error! Division by zero is not allowed."
-        # return a / b
-        return a / b
+        # return round(a / b, 2)
+        return b / a
 
 
 # Creating object of Calculator class
