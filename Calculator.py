@@ -15,7 +15,7 @@ class Calculator:
         # if b == 0:
         #     return "Error! Division by zero is not allowed."
         # return round(a / b, 2)
-        return b / a
+        return a / b
 
 
 # Creating object of Calculator class
