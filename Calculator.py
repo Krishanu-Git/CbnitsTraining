@@ -12,10 +12,9 @@ class Calculator:
         return a * b
 
     def divide(self, a, b):
-        # if b == 0:
-        #     return "Error! Division by zero is not allowed."
-        # return round(a / b, 2)
-        return a / b
+        if b == 0:
+            return "Error! Division by zero is not allowed."
+        return round(a / b, 2)
 
 
 # Creating object of Calculator class
